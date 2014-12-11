@@ -1,0 +1,41 @@
+/*
+	Kyle Bergman
+	INFO 343 with Morris
+	SASS assignment
+*/
+body {
+  background-image: url("colby2.jpg");
+  background-repeat: repeat;
+  font: 100% Helvetica, sans-serif;
+  text-align: center; }
+
+h2 {
+  margin: 0; }
+
+img {
+  padding-top: 10px; }
+
+.piece, .super-piece {
+  background-color: white;
+  border: 5px solid #09345a;
+  margin: auto;
+  outline: 5px solid #bf101d;
+  width: 550px; }
+
+.super-piece {
+  font-weight: 150%;
+  font-color: #bf101d; }
+
+nav ul {
+  list-style-type: none;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding-left: 0; }
+nav li {
+  display: inline-block; }
+nav a:link {
+  color: #bf101d; }
+nav a:visited {
+  color: #blue; }
+
+/*# sourceMappingURL=main.css.map */
