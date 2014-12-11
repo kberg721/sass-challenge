@@ -15,16 +15,34 @@ h2 {
 img {
   padding-top: 10px; }
 
-.piece, .super-piece {
+.piece, .super-piece, .super-super-piece {
   background-color: white;
   border: 5px solid #09345a;
   margin: auto;
   outline: 5px solid #bf101d;
   width: 550px; }
 
-.super-piece {
-  font-weight: 150%;
-  font-color: #bf101d; }
+.super-piece, .super-super-piece {
+  font-weight: bold;
+  color: #bf101d; }
+
+.super-super-piece #item-1 {
+  font-size: 4em;
+  border: 5px solid #09345a;
+  color: #900c16; }
+.super-super-piece #item-2 {
+  font-size: 8em;
+  border: 10px solid #09345a;
+  color: #61080f; }
+.super-super-piece #item-3 {
+  font-size: 12em;
+  border: 15px solid #09345a;
+  color: #320408; }
+
+#what #video {
+  margin: auto; }
+#what p {
+  display: inline-block; }
 
 nav ul {
   list-style-type: none;
